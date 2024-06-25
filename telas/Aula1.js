@@ -1,13 +1,12 @@
 import { Button, StyleSheet, Text, View } from "react-native-web";
+  import videoAula from "../assets/videoAula.mp4";
 
-export default function Aula1() {
-  return (
-    <View style={StyleSheet.container}>
-      <Text style={StyleSheet.text}>Aula 1</Text>
-      <Button title="Aula 1" />
-    </View>
-  );
-}
+  export default function Aula1() {
+    render();
+    {
+      return <View style={StyleSheet.container}></View>;
+    }
+  }
 
 const styles = StyleSheet.create({
   container: {
